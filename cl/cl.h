@@ -3,6 +3,7 @@
 
 #if defined(__APPLE__)
     #include <OpenCL/cl.h>
+    #include <OpenCL/cl_ext.h>
     #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #elif defined(_WIN32) || defined(_WIN64)
     #include <CL/cl.h>
